@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import "modal";
+
+
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 180%;
+	color: #666;
+	text-align: center;
+
+}
+
+.c1{
+	background: url(trib.jpg);
+	background-size: 100px;
+	
+}
+
+.c2{
+	background: url(noli.jpg);
+	min-height: 60%;
+}
+
+.c3{
+	background: url(elfili.jpg);
+	min-height: 40%;
+}
+
+.c4{
+	background: url(shot1.jpg);
+	min-height: 30%;
+}
+
+.c5{
+	background: url(jrizal.png);
+	min-height: 100%;
+}
+
+.c6{
+	background: url(jrizal.png);
+	min-height: 60%
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6{
+	position: relative;
+	opacity: .75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.heading{
+	position: absolute;
+	color: #fff;
+	font-size: 300%;
+	top: 38%;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	text-shadow: 0 0 10px #000;
+}
+
+.heading2 {
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	color: #fff;
+	font-size: 250%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 0 0 10px #000;
+}
+
+.heading3 {
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	color: #fff;
+	font-size: 250%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 0 0 10px #000;
+}
+
+.heading4 {
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	color: #fff;
+	font-size: 250%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 0 0 10px #000;
+}
+
+
+.hati{
+	float: left;
+	width: 42%;
+	padding: 0 4%;
+	text-align: left;
+}
+
+section{
+	overflow: auto;
+	padding: 50px 80px;
+}
+
+.itim{
+	overflow: auto;
+	padding: 50px 80px;
+	background-color: #323232;
+	color: #f2f2f2;
+	background: url(trib.jpg);
+
+}
+
+@media (max-width: 760px){
+	.heading{
+		font-size: 200;
+}
+
+.heading2{
+	font-size: 180;
+}
+
+.hati{
+	width: 90%;
+	padding: 0;
+	text-align: center;
+	
+}
+
